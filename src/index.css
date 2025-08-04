@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+.theme1 {
+  @apply bg-white text-green-400 font-sans;
+}
+
+.theme2 {
+  @apply bg-gray-900 text-cyan-500 font-serif;
+}
+
+.theme3 {
+  @apply bg-gradient-to-r from-yellow-100 to-pink-200 text-purple-800;
+  font-family: 'Pacifico', cursive;
+}
+
